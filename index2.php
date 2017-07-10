@@ -1,7 +1,7 @@
 <?php
 
   include("dependencies/session.php");
-   include("dependencies/config.php");
+   
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">General</a></h1>
+  <h1><a href="dashboard.php">General</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -35,7 +35,7 @@
         <li class="divider"></li>
         <li><a href="#"><i class="icon-check"></i> My Tasks</a></li>
         <li class="divider"></li>
-        <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
+        <li><a href="login.php"><i class="icon-key"></i> Log Out</a></li>
       </ul>
     </li>
     <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
@@ -64,7 +64,7 @@
 <!--Input  text-->
 <div id="content">
   <div id="content-header">
-    <div id="breadcrumb"> <a href="index.html"  title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Bucketlist</a></div>
+    <div id="breadcrumb"> <a href="index.php"  title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Bucketlist</a></div>
   </div>
   
   <div class="container-fluid">

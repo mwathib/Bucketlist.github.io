@@ -14,7 +14,7 @@
 	<body>
 		<!-- start Login page-->
 		<div id="loginbox">            
-			<form id="loginform" class="form-vertical" action="index.html">
+			<form id="loginform" class="form-vertical" action="index.php">
 				 <div class="control-group normal_text"> <h3><img src="img/logo.png" alt="Logo" /></h3></div>
 
 
@@ -42,7 +42,7 @@
 
 				<div class="form-actions">
 					<span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Sign Up</a></span>
-					<span class="pull-right"><a type="submit" href="index2.html" class="btn btn-success" /> Sign In</a></span>
+					<span class="pull-right"><a type="submit" href="index2.php" class="btn btn-success" /> Sign In</a></span>
 				</div>
 			<!--End login page-->
 			</form>
@@ -78,7 +78,7 @@
 			   
 				<div class="form-actions">
 					<span class="pull-left"><a href="#" class="flip-link btn btn-success" id="to-login">&laquo; Back to login</a></span>
-					<span class="pull-right"><a class="btn btn-info" href="login.html"/>Register</a></span>
+					<span class="pull-right"><a class="btn btn-info" href="login.php"/>Register</a></span>
 				</div>
 		<!--End registration page-->
 			</form>
