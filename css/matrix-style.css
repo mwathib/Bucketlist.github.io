@@ -164,10 +164,7 @@ hr{ border-top-color:#dadada;}
 #sidebar > ul > li > a > i {
 	margin-right: 10px;
 }
-#sidebar > ul > li.active > a {
-	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
-	text-decoration:none;
-}
+
 #sidebar > ul > li > a > .label {
 	margin: 0 20px 0 0;
 	float: right;
